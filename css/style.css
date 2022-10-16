@@ -57,3 +57,78 @@
     border: none;
     background-color: rgb(133, 21, 21);
 }
+.services{
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+.services h1{
+    color: red;
+    margin-bottom: 100px;
+}
+.cardone img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: red;
+}
+.cardtwo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: red;
+}
+.cardthree img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: red;
+}
+.cardone{
+    float: right;
+    border-radius: 20px;
+    background-color: red;
+    margin: 20px;
+    padding: 100px;
+    width: 30vh;
+    margin-right: 8%;
+}
+
+.cardtwo {
+    float: right;
+    border-radius: 20px;
+    background-color: red;
+    margin: 20px;
+    padding: 100px;
+    width: 30vh;
+}
+.cardthree {
+    float: right;
+    border-radius: 20px;
+    background-color: red;
+    margin: 20px;
+    padding: 100px;
+    width: 30vh;
+}
+
+.cardone:hover{
+    transform: 2s ease;
+    background-color: rgb(4, 4, 38);
+    color: white;
+}
+
+.cardtwo:hover {
+    transform: 2s ease;
+    background-color: rgb(4, 4, 38);
+    color: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cardthree:hover {
+    transform: 2s ease;
+    background-color: rgb(4, 4, 38);
+    color: white;
+}
