@@ -1,0 +1,59 @@
+
+.container{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.navbar a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: rgb(18, 18, 94);
+}
+.content{
+    margin-top: 190px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.content h1{
+    color: white;
+    font-size: 90px;
+
+}
+.content p{
+    color: white;
+    font-size: 26px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.btn{
+    margin-left: 45%;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-color: white;
+    border: 1.5px solid white;
+}
+.btn:hover{
+    transform: 2s ease;
+    border: none;
+    background-color: rgb(133, 21, 21);
+}
