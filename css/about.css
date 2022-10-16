@@ -1,0 +1,54 @@
+.container {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.navbar {
+    opacity: 100%;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.navbar a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(18, 18, 94);
+}
+.maincontainer{
+    height: 100vh;
+}
+.content{
+    text-align: center;
+}
+.content h6{
+    font-size: 50px;
+}
+
+.main img{
+    height: 55vh;
+    width: 35vw;
+    float: left;
+    margin-left: 13%;
+}
+.contain{
+    float: right;
+    width: 35vw;
+    margin-right: 13%;
+}
+.main{
+    font-family: cursive;
+    font-size: 20px;
+}
+.main h6{
+    font-size: 30px;
+}
